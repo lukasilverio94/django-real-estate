@@ -65,7 +65,7 @@ class Migration(migrations.Migration):
                 ("is_staff", models.BooleanField(default=False)),
                 ("is_active", models.BooleanField(default=True)),
                 (
-                    "data_joined",
+                    "date_joined",
                     models.DateTimeField(default=django.utils.timezone.now),
                 ),
                 (
